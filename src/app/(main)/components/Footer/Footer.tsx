@@ -7,7 +7,7 @@ const Footer = () => {
         Powered by{' '}
         <a
           className="text-custom-primary-primary underline"
-          href="https://www.gymflow.io/"
+          href="https://www.example.io/"
         >
           example.io
         </a>
