@@ -3,6 +3,7 @@ Signup Application is a web application built using Next.js, designed for managi
 
 ## Table of Contents
 
+- [Features](#features)
 - [Installation](#installation)
 - [Scripts](#scripts)
 - [Dependencies](#dependencies)
@@ -11,6 +12,28 @@ Signup Application is a web application built using Next.js, designed for managi
 - [Linting](#linting)
 - [Additional Notes](#additional-notes)
 - [License](#license)
+
+## Features
+
+- **State Management and Persistence**
+  - Form steps and active stages are stored in a context for easy state management.
+  - Data, including form input and the active stage, is also saved in `localStorage` for persistence across page reloads, ensuring users don't lose their progress.
+
+- **Form Validation**
+  - Utilizes `react-hook-form` to efficiently handle validation, providing a seamless form handling experience.
+  - Zipcode validation is dynamically performed based on the country selected at the beginning of the form, ensuring accurate input adherence to regional standards.
+
+- **Custom Components**
+  - Implements custom-styled components using `shadcn/ui`, delivering a unique and cohesive user interface design.
+
+- **Advanced Input Handling**
+  - Features a custom phone number input with country selection.
+  - Utilizes virtualization techniques for efficient rendering, especially beneficial when handling large lists of countries.
+
+- **Smooth Transitions and Animations**
+  - Employs `framer-motion` for animations, enabling smooth transitions between stages and striking component appearance effects.
+
+
 
 ## Installation
 
