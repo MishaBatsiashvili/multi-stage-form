@@ -9,7 +9,7 @@ const Footer = () => {
           className="text-custom-primary-primary underline"
           href="https://www.gymflow.io/"
         >
-          Gymflow.io
+          example.io
         </a>
       </span>
     </div>
