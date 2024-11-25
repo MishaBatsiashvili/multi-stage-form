@@ -1,0 +1,5 @@
+{
+  "prettier.configPath": "./prettier.config.mjs",
+  "editor.formatOnSave": true,
+  "editor.tabSize": 2
+}
