@@ -13,7 +13,7 @@ export default {
       colors: {
         background: 'hsl(var(--background))',
         foreground: 'hsl(var(--foreground))',
-        gymflow: {
+        custom: {
           primary: {
             primary: 'hsl(var(--custom-primary))',
             'on-primary-container': 'hsl(var(--custom-on-primary-container))',
