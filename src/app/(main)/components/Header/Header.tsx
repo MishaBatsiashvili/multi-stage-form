@@ -5,7 +5,7 @@ import { motion } from 'motion/react'
 
 const Header = () => {
   return (
-    <div className="relative flex items-center justify-center bg-gradient-to-tl from-[#3b6c8d] to-[#001c57] py-6 text-white">
+    <div className="relative flex items-center justify-center bg-gradient-to-tl from-[#6b9af7] to-[#001238] py-6 text-white">
       <motion.div
         initial={{ opacity: 0 }}
         animate={{ opacity: 1, transition: { delay: 0.1, duration: 0.4 } }}
